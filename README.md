@@ -19,9 +19,7 @@ proxy(host, req, res, options);
 var http = require('http')();
 var proxy = require('forilan-http-proxy');
 
-httpServer = http.createServer(function (req, res) {
-
-  
+httpServer = http.createServer(function (req, res) {  
   proxy("www.baidu.com", req, res, {
     proxyErrorHandler: function (err, res, next) {
         console.log("proxyErrorHandler:" + err);
