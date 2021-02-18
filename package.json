@@ -23,7 +23,7 @@
   "main": "index.js",
   "name": "forilan-http-proxy",
   "scripts": {
-    "demo":"node-dev demo.js"
+    "demo": "node-dev demo.js"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
