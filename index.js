@@ -6,7 +6,6 @@
 
 var assert = require("assert");
 var debug = require("debug")("forilan-http-proxy");
-var finalhandler = require('finalhandler');
 var setPrototypeOf = require('setprototypeof');
 var request = require('./lib/request');
 var response = require('./lib/response');
