@@ -1,0 +1,29 @@
+{
+  "author": "forilan",
+  "dependencies": {
+    "debug": "^3.0.1",
+    "es6-promise": "^4.1.1",
+    "raw-body": "^2.3.0"
+  },
+  "description": "http proxy middleware for http",
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "chai": "^4.1.2",
+    "cookie-parser": "^1.4.3",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.5",
+    "mocha": "^3.5.0",
+    "supertest": "^3.0.0"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "forilan-http-proxy",
+  "scripts": {
+    "demo":"node-dev demo.js"
+  },
+  "version": "1.0.0"
+}
