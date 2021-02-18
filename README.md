@@ -1,3 +1,5 @@
+基于express和express-http-proxy修改的适用于http模块的代理模块.
+
 http middleware to proxy request to another host and pass response back to original caller.
 
 ## Install
