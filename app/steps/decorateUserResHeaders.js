@@ -3,7 +3,7 @@
 
 function decorateUserResHeaders(container) {
   var resolverFn = container.options.userResHeaderDecorator;
-  var headers = container.user.res.headers;
+  var headers = container.user.res.getHeaders();
 
   if (!resolverFn) {
     return Promise.resolve(container);
